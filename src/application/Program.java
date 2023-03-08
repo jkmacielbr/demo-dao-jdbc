@@ -48,6 +48,11 @@ public class Program {
         seller.setName("Marta");
         sellerDao.update(seller);
 
+        System.out.println();
+        System.out.println("=== TESTE 6: seller delete ===");
+        sellerDao.deleteById(7);
+
+
 
     }
 }
